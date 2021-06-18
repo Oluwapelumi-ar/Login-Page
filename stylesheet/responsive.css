@@ -1,9 +1,4 @@
 @media screen and (max-width: 760px) {
-
-    body {
-        background-color: aqua;
-    }
-    
     nav {
         max-height: 0;
         height: 50vh;
@@ -16,7 +11,6 @@
         background-color: black;
         color: #fff;
         opacity: 0.9;
-        
     }
 
     ul {
@@ -29,6 +23,50 @@
 
     .icon {
         display: flex;
+    }
+
+    main {
+        min-width: 100%;
+    }
+
+    .form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .divider {
+        display: none;
+        visibility: hiddenh;
+    }
+
+    .first-section img {
+        display: none;
+    }
+    
+    .second-section img {
+        display: none;
+    }
+
+    form {
+        width:95%;
+        margin: 0 auto;
+    }
+
+    .login-form,.details-form {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        padding: 500px;
+    }
+
+    .below-input {
+        display: none;
+    }
+
+    .bottom-p {
+        display: none;
     }
 
 }
