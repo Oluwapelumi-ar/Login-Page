@@ -25,6 +25,10 @@
         display: flex;
     }
 
+    .title h4 {
+        display: block;
+    }
+
     main {
         min-width: 100%;
     }

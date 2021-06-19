@@ -72,6 +72,10 @@ ul {
 }
 
 .title h3 {
+    padding-top: 10rem;
+}
+
+.title h4,.title h3 {
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -79,7 +83,11 @@ ul {
     letter-spacing: 0px;
     text-align: center;
     background-color: #FFFBFB;
-    padding-top: 10rem;
+}
+
+.title h4 {
+    display: none;
+    padding-top: 3hrem;
 }
 
 main {
@@ -131,11 +139,6 @@ main {
     height: 50vh;
 }
 
-.divider img {
-    text-align: center;
-    align-self: center;
-    height: 20vh;
-}
 
 .divider p {
     font-family: Open Sans;
@@ -145,6 +148,13 @@ main {
     line-height: 19px;
     color: #000000;
 }
+
+.vertical {
+    border-left: 2px solid black;
+    height: 120px;
+    align-self: center;
+}
+
 
 Form {
     color:#2C2C2C;
@@ -215,11 +225,14 @@ button {
     left:-150px;
 }
 
-.input img {
+.input {
     position: relative;
-    top:-55px;
-    right:40px;
-    left:-150px;
+}
+
+.input img {
+    position: absolute;
+    left: 0;
+    padding: 15px 0 20px 20px;
 }
 
 .fa-facebook-f {
@@ -238,5 +251,4 @@ button {
     margin-left: 13rem;
     text-align: center;
 }
-
 
